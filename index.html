@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Music Player</title>
+    <title>Spotify Web Launcher</title>
     <link rel="manifest" href="manifest.json">
-    <style>
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #000; }
-        iframe { width: 100%; height: 100%; border: none; }
-    </style>
+    <script>
+        // Redirects immediately to the player
+        window.location.href = "https://open.spotify.com";
+    </script>
 </head>
-<body>
-    <iframe src="https://open.spotify.com"></iframe>
+<body style="background: #121212;">
 </body>
 </html>
